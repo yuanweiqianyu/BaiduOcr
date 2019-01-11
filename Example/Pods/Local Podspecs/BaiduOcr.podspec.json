@@ -1,0 +1,22 @@
+{
+  "name": "BaiduOcr",
+  "version": "0.1.0",
+  "summary": "A short description of BaiduOcr.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuanweiqianyu/BaiduOcr",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuanweiqianyu": "panzhenzhen@58qf.com"
+  },
+  "source": {
+    "git": "https://github.com/yuanweiqianyu/BaiduOcr.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BaiduOcr/Classes/**/*"
+}

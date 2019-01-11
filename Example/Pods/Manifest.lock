@@ -1,0 +1,27 @@
+PODS:
+  - BaiduOcr (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BaiduOcr (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BaiduOcr:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaiduOcr: bbb218f895ffeaf95e41ba30450342067031f799
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 03226005023d33c6c1eb4ee258f0b25d06590a80
+
+COCOAPODS: 1.5.3
