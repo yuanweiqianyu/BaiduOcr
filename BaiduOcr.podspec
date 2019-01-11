@@ -30,11 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'BaiduOcr/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BaiduOcr' => ['BaiduOcr/Assets/*.png']
-  # }
+  s.source_files = 'BaiduOcr/Classes/**/*.{nib,dylib,module-map,macbinary,}'
+  s.vendored_frameworks = 'BaiduOcr/Classes/*.framework'
+
+   s.resource_bundles = {
+     'BaiduOcr' => ['BaiduOcr/Classes/*.framework']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
